@@ -13,6 +13,8 @@ body {
 
 @import url("https://fonts.googleapis.com/css?family=Didact+Gothic|Comfortaa:400,700&subset=latin,cyrillic");
 @import url ('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
 .header {
     padding-top: 200px;
 }
@@ -45,7 +47,6 @@ body {
      display: inline-block;
 }
 
-
 .title > .logo > .name {
     display: inline-block;
     font-size: 52px;
@@ -54,13 +55,10 @@ body {
     color: #fff;
 }
 
-
-
 .name > .blue {
     display: inline-block;
     color: #87acfd;
 }
-
 
 .explanation {
     display: inline-block;
@@ -72,10 +70,8 @@ body {
     padding-top: 14px;
 }
 
-
 .container {
     background: #fff;
-    margin-top: 138px;
     max-width: 2101px;
     border-radius: 83px 83px 20px 20px;
     margin: 200px auto 175px;
@@ -207,7 +203,7 @@ body {
 
 .box > .inscription {
      display: inline-block;
-
+     font-size: 40px;
 }
 
 .box > .inscription > .better {
@@ -221,8 +217,10 @@ body {
     margin-right: 47px;
 }
 
+/*расстояние между иконками*/ /*сами иконки*/
 .fab {
     color: #969698;
+    margin-right: 35px;
 }
 .network > .facebook > .fab fa-facebook::before {
      content: '\f39e';
@@ -255,7 +253,6 @@ body {
     font-family: FontAwesome;
     color: #969698;
 }
-
 
 .wrapper > .box >.inscription >.better {
     display: inline-block;
@@ -331,11 +328,6 @@ h1 > .bt-version{
 
 /*features*/
 
-
-
-
-
-
 .features {
     max-width: 1995px;
     margin: 0 auto;
@@ -354,7 +346,6 @@ h1 > .bt-version{
     font-size: 50px;
 }
 
-
 .features > .amenities ul {
     color: #fff;
     text-transform: uppercase;
@@ -368,7 +359,6 @@ h1 > .bt-version{
     padding-bottom: 56px;
 }
 
-
 .features > .amenities > .list >.fas-fa-check::before {
     content: "\f00c";
     font-family:FontAwesome;
@@ -379,7 +369,6 @@ h1 > .bt-version{
 .fa-check {
     margin-right: 49px;
 }
-
 
 .features > .fonts {
     color: #fff;
@@ -429,9 +418,7 @@ h1 > .bt-version{
     padding-bottom: 40px;
 }
 
-.color {
-
-}
+.color {}
 
 .color > .title {
     color: #fff;
@@ -470,19 +457,11 @@ h1 > .bt-version{
     height: 1399px;
 }
 
-
-
 .landing-page {
     width: 100%;
     max-width: 2495px;
     margin: 0 auto;
-
 }
-
-
-
-
-
 
 .landing-page > .title {
     width: 100%;
@@ -496,30 +475,13 @@ h1 > .bt-version{
 
 .landing-page > .page {
     width: 100%;
-    height: 7765px;
     background: #fff;
     border-radius: 58px;
-    max-width: 1995px;
+    max-width: max-content;
     box-shadow: 34px 0px 8px 0px #dfdfdf5c;
     position: absolute;
     z-index: 999;
 }
-
-
-
-.landing-page > .page-back {
-    width: 100%;
-    max-width: 2028px;
-    height: 7765px;
-    background: #fff;
-    border-radius: 29px;
-    position: absolute;
-    margin-left: 465px;
-}
-
-
-
-
 
 .page > .title-page {
     background: #FFF;
@@ -540,6 +502,8 @@ h1 > .bt-version{
     text-transform: uppercase;
     margin-top: 7px;
 }
+
+/*иконки*/
 
  .logo > .name {
      font-size: 25px;
@@ -565,18 +529,23 @@ h1 > .bt-version{
     margin-right: 31px;
 }
 
-
 .header-section {
     background: #f9faff;
     padding: 131px 235px 0 382px;
     height: 751px;
 }
 
+.box > .inscription > .icon > .fab fa-facebook-square::before {
+    content: "\f082";
+    font-family: FontAwesome;
+    font-size: 39px;
+}
+
 .box > .inscription > .title-better {
     font-size: 59px;
     text-transform: uppercase;
     font-weight: bold;
-    padding-bottom: 52px;
+    padding: 50px 0 50px;
 }
 
 .title-better > .better {
@@ -588,13 +557,9 @@ h1 > .bt-version{
     padding-bottom: 89px;
 }
 
-
-
 /*button*/
 
-.contacts {
-
-}
+.contacts {}
 
 .get > .get-in-tuch {
     font-size: 27px;
@@ -627,7 +592,6 @@ h1 > .bt-version{
     cursor: pointer;
 }
 
-
 .get > .inform:hover {
     background: #000;
     color: #fff;
@@ -637,32 +601,15 @@ h1 > .bt-version{
 }
 
 .girl {
-    background: red;
+    background-image: url('./img/s1200.jpg');
     width: 523px;
     height: 501px;
     display: inline-block;
     margin-left: 174px;
     vertical-align: top;
+    background-size: contain;
 }
 
-.girl > .line {
-    width: 435px;
-    height: 3px;
-    background: #4876e6;
-    margin: 170px -390px 0 0;
-    float: right;
-}
-
-.girl > .line::before {
-    content: "";
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    background: green;
-    margin-top: -5px;
-    border-radius: 27px;
-    box-shadow: 0 0 0px 12px #cbdaf7;
-}
 
 
 .wrapper > .wrap > .advantages {
@@ -693,7 +640,6 @@ h1 > .bt-version{
     box-shadow: 0 0 10px 3px #00000070;
     cursor: pointer;
 }
-
 
 .txt > .speaker {
     position: absolute;
@@ -741,7 +687,6 @@ h1 > .bt-version{
     font-size: 23px;
 }
 
-
 .dig-markiting {
     max-width: 446px;
     width: 100%;
@@ -761,8 +706,6 @@ h1 > .bt-version{
     background: #fff;
     padding: 33px 70px 28px;
 }
-
-
 
 .markiting h2 {
     margin-top: 0;
@@ -787,7 +730,6 @@ h1 > .bt-version{
 }
  /**/
 
-
 .markiting p {
     font-size: 26px;
 }
@@ -807,7 +749,7 @@ h1 > .bt-version{
     border-radius: 50px;
 }
 
-/*??? не увеличивается*/
+/*icon graphic*/
 .graphic-design > .icon >  .fas fa-paint-roller::before {
     content: "\f5aa";
     position: absolute;
@@ -816,12 +758,12 @@ h1 > .bt-version{
     border-radius: 44px;
     background: #4776e8;
     margin: 67px 0 0 -31px;
-    font-size: 40px;
 }
 
 .graphic-design > .design {
     width: 444px;
     padding: 33px 70px 28px;
+    border: 1px solid #eee;
 }
 
 .graphic-design > .design:hover {
@@ -829,8 +771,6 @@ h1 > .bt-version{
     cursor: pointer;
     transition: 0.3s;
 }
-
-
 
 .graphic-design h2 {
     margin-top: 0;
@@ -841,8 +781,6 @@ h1 > .bt-version{
 .graphic-design > .design p {
     font-size: 26px;
 }
-
-
 
 /*button*/
 .read-more {
@@ -860,8 +798,6 @@ h1 > .bt-version{
     transition: 0.3s;
     cursor: pointer;
 }
-
-
 /*Рекомендации*/
 
 .company-specialist {
@@ -892,18 +828,15 @@ h1 > .bt-version{
     font-size: 26px;
 }
 
-
-
 .company-specialist > .more-about-us {
     background: url("https://wdb.space/media/2016-11-14/Cwow8VKOSV.jpg");
     width: 881px;
-    height: 668px;
+    height: 666px;
     position: absolute;
     right: 0;
 }
 
-
-
+/*video*/
 .player {
     position: absolute;
     width: 122px;
@@ -912,7 +845,7 @@ h1 > .bt-version{
     border-radius: 70px;
     margin: 257px 0 0 -58px;
  }
-
+/*round video*/
  .player > .round {
      border: 2px solid #4777e6;
      height: 130px;
@@ -922,14 +855,13 @@ h1 > .bt-version{
      color: #4777e6;
      box-shadow: 0 0 0px 10px white;
  }
-
+ /*learn more*/ /*ссылка справа внизу экрана*/
  .btn {
      width: 239px;
      height: 83px;
      background: #4777e6;
      position: absolute;
-     bottom: 0;
-     right: 0;
+     bottom: 0; right: 0;
      color: #fff;
      font-size: 23px;
      text-transform: uppercase;
@@ -937,47 +869,64 @@ h1 > .bt-version{
      text-align: center;
  }
 
+ .btn:hover {
+     background: #000;
+     transition: 0.3s;
+ }
+
 .container-spec > .signature{padding-top: 7px;}
 .container-spec > .signature img {
     width: 118px;
 }
 
-
-
-
-
-
 /*best Services*/
-
-
-
-
+.container-best {
+    background: #f9faff;
+    max-width: 2101px;
+    padding: 200px;
+}
 .Best-serv {
-    max-width: 1402px;
+    max-width: 1468px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
 .Best-serv h1 {
-    margin-top: 135px;
     text-transform: uppercase;
 }
-
-
 
 
 /*slider*/
 
 .arrow-left {
-    width: 20px;
-    height: 20px;
-    background: red;
     display: inline-block;
+    font-size: 43px;
+    margin-right: 42px;
+    padding: 19px 29px 15px;
+    border-radius: 70px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.arrow-left > .fas fa-angle-left::before {
+    content:"\f104";
+}
+
+.arrow-left > .fas:hover {
+    color: #4878e7;
+    border-radius: 50px;
+}
+
+
+
+.arrow-left :hover {
+    background: #4878e7;
+    color: #fff;
+    cursor: pointer;
 }
 .Best-serv > .slider {
     width: 100%;
-    max-width: 1403px;
     height: 281px;
     margin-top: 36px;
 }
@@ -988,7 +937,7 @@ h1 > .bt-version{
     height: 282px;
     border: 3px solid #eee;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     padding-top: 30px;
 }
 
@@ -1004,8 +953,6 @@ h1 > .bt-version{
     width: 86px;
     height: 80px;
 }
-
-.slider > .Design-Dev {}
 
 .slider > .two {
     width: 384px;
@@ -1023,11 +970,37 @@ h1 > .bt-version{
     background: #fff;
 }
 
+
+.slider > .search-optimization {
+    width: 384px;
+    height: 282px;
+    border: 3px solid #eee;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
+.slider > .search-optimization:hover {
+    background: #fff;
+}
+
+ .search-optimization img {
+     width: 110px;
+ }
+
+.search-optimization > .txt {
+    width: 286px;
+    margin: 0 auto;
+}
+
+
+
 .slider > .three {
     width: 384px;
     height: 282px;
     border: 3px solid #eee;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .slider > .three:hover {
@@ -1038,23 +1011,650 @@ h1 > .bt-version{
     background: #fff;
 }
 
+.slider > .three img {
+    width: 110px;
+}
 
-.slider > .search-optimization {
-    width: 384px;
-    height: 282px;
-    border: 3px solid #eee;
+
+
+.arrow-right {
+    display: inline-block;
+    font-size: 43px;
+    margin: 0 42px 0;
+    padding: 19px 29px 15px;
+    border-radius: 70px;
+    color: #fff;
+    font-weight: normal;
+    transform: rotate(180deg);
+}
+
+.arrow-right > .fas fa-angle-right::after {
+    content: "\f105";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    font-size: 20px;
+}
+
+.arrow-right:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.portfolio {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 135px 0 135px;
+}
+
+.portfolio > .title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.portfolio > .inscription {
+    padding: 43px 0 40px;
+}
+
+/*tabs*/
+
+.tabs {
+    display: inline-block;
+    max-width: 575px;
+    border: 2px solid;
+    border-radius: 27px;
+}
+
+.tabs > .all {
+    display: inline-block;
+    padding: 20px;
+    background: #4777e6;
+    border-bottom-left-radius: 26px;
+    border-top-left-radius: 26px;
+    border-right: 2px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tabs > .web-design {
+    display: inline-block;
+    padding: 20px;
+    margin-left: -4px;
+    border-right: 2px solid;
+    text-transform: uppercase;
+}
+
+.tabs > .brand {
+    display: inline-block;
+    padding: 20px;
+    margin-left: -4px;
+    text-transform: uppercase;
+}
+
+.brand {
+    display: inline-block;
+    padding: 20px;
+    border-right: 2px solid;
+}
+
+.dev {
+    display: inline-block;
+    padding: 20px;
+    margin-left: -4px;
+    text-transform: uppercase;
+}
+
+/*картинки*/
+
+
+/*блок где сами картинки*/
+.recents-end {
+    margin-bottom: 50px;
+}
+
+/*картинки*/
+.item {
+    display: inline-block;
+}
+
+.item img {
+    width: 360px;
+    height: 244px;
+    border: 9px solid #fff;
+    margin: 31px;
+    box-shadow:0 0 17px 3px #576a9a;
+}
+
+.item img:nth-child(-n+3) {
+   margin-top: 51px;
+}
+
+/*кнопка продолжения*/
+.further {
+    display: inline-block;
+    padding: 27px 64px;
+    text-transform: uppercase;
+    font-size: 24px;
+    background: #3e70e1;
+    color: #fff;
+    border-radius: 50px;
+    border: 2px solid #d9dadc;
+}
+
+.further:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.pricing-plan > .title {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 42px;
+}
+
+.pricing-plan > .inscription {
+    text-align: center;
+}
+
+.pricing-plan > .container >  .professional {
+    width: 200px;
+    height: 200px;
+    background: red;
+    display: inline-block;
+}
+
+.pricing-plan > .container >  .advance {
+    width: 200px;
+    height: 200px;
+    background: red;
+    display: inline-block;
+}
+
+.pricing-plan > .container >  .premium {
+    width: 200px;
+    height: 200px;
+    background: red;
+    display: inline-block;
+}
+
+
+.pricing-plan > .container-price {
+    max-width: 1542px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 122px;
+    font-size: 40px;
+}
+
+.container-price > .professional {
+    max-width: 375px;
+    width: 100%;
+    border: 2px solid #cbcbcb;
+    border-top: 7px solid #46e648;
     display: inline-block;
     vertical-align: top;
-    padding-top: 30px;
+    padding: 40px 30px;
+    text-transform: uppercase;
+}
+
+.container-price > .professional:hover {
+    border-top: 7px solid #000;
+}
+
+.professional > .fas fa-tools::before {
+    content: "\f7d9";
+    font-family: FontAwesome;
+    font-size: 40px;
 }
 
 
- .search-optimization img {
-     width: 110px;
+.professional > .title {
+    font-size: 18px;
+}
+
+ .professional > .inscription {
+     font-size: 17px;
  }
 
-.search-optimization > .txt {
-    width: 286px;
-    margin: 0 auto;
+ .professional > .price {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+.price > .zero {
+    font-size: 35px;
 }
+
+.purchase {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 44px;
+    color: #4777e6;
+    border: 2px solid gray;
+    font-weight: bold;
+    max-width: 245px;
+    margin: 30px auto 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.purchase:hover {
+    background: #4777e6;
+    color: #fff;
+}
+
+.container-price > .advance {
+    max-width: 375px;
+    width: 100%;
+    border: 2px solid #cbcbcb;
+    border-top: 7px solid #4777e5;
+    display: inline-block;
+    margin: 0 100px;
+    padding: 40px 30px;
+}
+
+/*hover*/
+
+
+.container-price > .advance:hover {
+    border: 2px solid #cbcbcb;
+    border-top: 7px solid #000;
+}
+
+
+
+.advance > .title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ .advance > .inscription {
+     font-size: 17px;
+ }
+
+ .advance > .price {
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+.price > .zero {
+    font-size: 35px;
+}
+
+.purchase {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 44px;
+    color: #4777e6;
+    border: 2px solid gray;
+    font-weight: bold;
+    max-width: 245px;
+    margin: 30px auto 0;
+    cursor: pointer;
+}
+
+.container-price > .premium {
+    max-width: 375px;
+    width: 100%;
+    border: 2px solid #cbcbcb;
+    border-top: 7px solid #e972e8;
+    display: inline-block;
+    vertical-align: top;
+    padding: 35px 30px;
+}
+
+.container-price > .premium:hover {
+    border: 2px solid #cbcbcb;
+    border-top: 7px solid #000
+}
+
+.container-price > .premium h2 {
+    text-transform: uppercase;
+    font-size: 29px;
+}
+
+.premium > .inscription {
+    font-size: 18px;
+}
+
+.premium > .price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.feedback {
+    width: 100%;
+    height: auto;
+    padding: 128px 0;
+    background: #ebeeff;
+}
+
+.clients-feedback {
+    max-width: max-content;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.clients-feedback > .inscription {
+    display: inline-block;
+}
+.inscription > .title {
+    font-size: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*clients-feedback*/
+.inscription > .arrow-left > .fas fa-chevron-circle-left::before {
+    content: "\f137";
+    position: absolute;
+    font-family:FontAwesome;
+    font-size: 19px;
+}
+
+/*feedback*/
+
+
+.clients-feedback > .comments {
+    display: inline-block;
+    vertical-align: top;
+}
+.comments > .one-comment {
+    display: inline-block;
+    width: 376px;
+    height: 228px;
+    background: #fff;
+    padding: 20px;
+}
+
+.comments > .one-comment > .name {
+    font-weight: bold;
+}
+
+.one-comment > .txt {
+    padding: 33px 0;
+}
+
+.comments > .two-comment {
+    display: inline-block;
+    width: 376px;
+    height: 228px;
+    background: #fff;
+}
+
+
+.latest-news {
+    max-width: max-content;
+    width: 100%;
+    margin: 131px auto;
+    text-align: center;
+}
+
+.latest-news > .title {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.container-news {
+
+}
+
+.one-news {
+    background-image: url('https://zooclub.ru/attach/16000/16660.jpg');
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    padding-top: 73px;
+    border: 2px solid;
+}
+
+.one-news > .title {
+    background: red;
+    position: absolute;
+}
+
+.one-news > .txt {
+    padding: 20px 0;
+    background: #fff;
+    margin-bottom: 0;
+}
+
+.one-news > .link {
+    border: 2px solid gray;
+    background: #fff;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+
+.link > .data {
+    color: gray;
+    margin-right: 21px;
+}
+
+/*работает для "one-news" "two-news" "three-news"*/
+.link > .Read {
+    color: #688be7;
+}
+
+
+.two-news {
+    background: red;
+    display: inline-block;
+    margin: 0 50px;
+    padding-top: 73px;
+    background-image: url('https://zooclub.ru/attach/16000/16660.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #000;
+}
+
+.two-news > .title {
+    background: red;
+    position: absolute;
+}
+
+.two-news > .txt {
+    padding: 20px 0;
+    background: #fff;
+    margin-bottom: 0;
+}
+
+
+.two-news > .link {
+    border: 2px solid gray;
+    background: #fff;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+
+.link > .data {
+    color: gray;
+    margin-right: 21px;
+}
+
+
+.three-news {;
+    background: red;
+    display: inline-block;
+    background-image: url('https://zooclub.ru/attach/16000/16660.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 73px;
+}
+
+
+.three-news > .title {
+    background: red;
+    position: absolute;
+}
+
+.three-news > .txt {
+    padding: 20px 0;
+    background: #fff;
+    margin-bottom: 0;
+    border: 1px solid #000;
+}
+
+.three-news > .link {
+    border: 2px solid gray;
+    background: #fff;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+
+.link > .data {
+    color: gray;
+    margin-right: 21px;
+}
+
+/*contacts*/
+.contacts-us {
+    background: #f9faff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0 100px;
+}
+
+.contacts-us h1 {
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.message > .info {
+    text-align: center;
+    padding: 40px 0 40px;
+}
+
+.message > .img {
+    display: inline-block;
+    vertical-align: top;
+}
+.message > .img .fas-fa-envelope::before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-size: 300px;
+    transform: rotate(45deg);
+    vertical-align: top;
+}
+
+.message > .er {
+    max-width: 590px;
+    display: inline-block;
+    text-align: left;
+    margin-left:177px;
+}
+
+.er input {
+    max-width: 273px;
+    width: 100%;
+    border-radius: 8px;
+    background: #f9faff;
+    border: 2px solid gray;
+    padding: 20px;
+    outline: none;
+}
+
+.er > .First-name {
+    margin-right: 31px;
+    padding: 20px;
+}
+
+.er > .subject {
+    max-width: 575px;
+    height: 54px;
+    margin: 31px 0;
+}
+
+.er > .message {
+    max-width: 578px;
+    width: 100%;
+    padding: 35px 20px 132px;
+}
+
+.er > .send {
+    background: #4777e6;
+    display: inline-block;
+    padding: 20px 66px;
+    border-radius: 50px;
+    margin-top: 31px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.er > .send:hover {
+    background: #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/*размеры иконки*/
+.fa-envelope {
+    font-size: 300px;
+}
+
+
+
+.footer {
+    background: #4777e6;
+    margin: 0 auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.footer-container {
+    max-width: 1218px;
+    margin: 0 auto;
+    padding: 62px 0;
+}
+
+.copyright {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer-menu {
+    display: inline-block;
+    float: right;
+}
+
+.footer-menu ul{
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*задняя страница*/
+.landing-page > .page-back {
+    width: 100%;
+    max-width: 2028px;
+    height: 7676px;
+    background: #fff;
+    border-radius: 29px;
+    position: absolute;
+    margin-left: 465px;
+}
+
+
 /**/
