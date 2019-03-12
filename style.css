@@ -1088,11 +1088,21 @@ h1 > .bt-version{
     text-transform: uppercase;
 }
 
+.tabs > .web-design:hover {
+    background: #4777e6;
+    color: #fff;
+}
+
 .tabs > .brand {
     display: inline-block;
     padding: 20px;
     margin-left: -4px;
     text-transform: uppercase;
+}
+
+.tabs > .brand:hover {
+    background: #4777e6;
+    color: #fff;
 }
 
 .brand {
@@ -1106,6 +1116,14 @@ h1 > .bt-version{
     padding: 20px;
     margin-left: -4px;
     text-transform: uppercase;
+}
+
+.tabs > .dev:hover {
+    background: #4777e6;
+    color: #fff;
+    border-bottom-right-radius: 27px;
+    border-top-right-radius: 27px;
+    margin-left: -6px;
 }
 
 /*картинки*/
@@ -1393,6 +1411,7 @@ h1 > .bt-version{
     width: 376px;
     height: 228px;
     background: #fff;
+    vertical-align: top;
 }
 
 
